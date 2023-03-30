@@ -41,7 +41,7 @@
 .houseabout{
  display: flex;
  justify-content: space-between;
- 
+ `
  }
 
  .houseabout img{
