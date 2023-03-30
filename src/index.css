@@ -1,0 +1,51 @@
+*{
+  margin: 0%;
+  color: rgb(2, 2, 2);
+
+}
+.App{
+  text-align: center;
+   
+}
+.navbar{
+  margin: 2.5rem 1.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar h1 {
+  color: rgb(8, 163, 117);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  cursor: pointer;
+}
+.navbar .links a{
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  border: 2px solid rgb(38, 129, 84);
+  margin: auto 5px;
+  border-radius: 15px;
+  background-color: rgb(38, 129, 84);
+  color: rgb(12, 11, 15);
+}
+ .links a:hover{
+  background-color: rgb(95, 62, 126);
+  box-shadow: indigo;
+  border: 2px solid rgb(8, 163, 117);
+}
+.home{
+  display: flex;
+  margin-top: 1rem;
+}
+.houseabout{
+ display: flex;
+ justify-content: space-between;
+ 
+ }
+
+ .houseabout img{
+  width: 20%;
+  height: 20%;
+  
+ }
